@@ -3,6 +3,8 @@ import { Main } from "./maps/baseDefs";
 import { Cobalt } from "./maps/cobaltDefs";
 import { Desert } from "./maps/desertDefs";
 import { Faction } from "./maps/factionDefs";
+import { ForcedLoot2 } from "./maps/forcedLootDef2";
+import { ForcedLoot } from "./maps/forcedLootDefs";
 import { Halloween } from "./maps/halloweenDefs";
 import { MainSpring } from "./maps/mainSpringDefs";
 import { MainSummer } from "./maps/mainSummerDefs";
@@ -10,6 +12,7 @@ import { Potato } from "./maps/potatoDefs";
 import { PotatoSpring } from "./maps/potatoSpringDefs";
 import { Savannah } from "./maps/savannahDefs";
 import { Snow } from "./maps/snowDefs";
+import { SolosMap } from "./maps/soloDefs";
 import { Turkey } from "./maps/turkeyDefs";
 import { Woods } from "./maps/woodsDefs";
 import { WoodsSnow } from "./maps/woodsSnowDefs";
@@ -48,6 +51,9 @@ export const MapDefs = {
     savannah: Savannah,
     cobalt: Cobalt,
     turkey: Turkey,
+    solos: SolosMap,
+    forced_loot: ForcedLoot,
+    forced_loot2: ForcedLoot2
 } satisfies Record<string, MapDef>;
 
 export interface MapDef {
