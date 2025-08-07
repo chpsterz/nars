@@ -417,6 +417,7 @@ export class Obstacle extends BaseGameObject {
             this.regrowTicker = def.regrowTimer;
         }
 
+        /* no loot dropping
         const lootPos = v2.copy(this.pos);
         if (def.lootSpawn) {
             v2.set(lootPos, v2.add(this.pos, v2.rotate(def.lootSpawn.offset, this.rot)));
@@ -483,6 +484,7 @@ export class Obstacle extends BaseGameObject {
                 );
             }
         }
+            */
 
         if (def.createSmoke) {
             this.game.smokeBarn.addEmitter(this.pos, this.layer);
