@@ -1,4 +1,6 @@
+import { CrosshairDefs } from "./crosshairDefs";
 import { HealEffectDefs } from "./healEffectDefs";
+import { PassDefs } from "./passDefs";
 
 const _allowedHealEffects = Object.keys(HealEffectDefs);
 const _allowedMeleeSkins = [
@@ -149,7 +151,6 @@ const _allowedEmotes = [
     "emote_flagsingapore",
     "emote_flagtrinidad",
     "emote_flaguruguay",
-    "emote_flagpalestine",
     "emote_logoconch",
     "emote_pineapple",
     "emote_coconut",
@@ -200,8 +201,7 @@ export interface UnlockDef {
     free?: boolean;
 }
 
-type UnlockDefKey = "unlock_default" | "unlock_new_account";
-export const UnlockDefs: Record<UnlockDefKey, UnlockDef> = {
+export const UnlockDefs: Record<string, UnlockDef> = {
     unlock_default: {
         type: "unlock",
         name: "standard-issue",
@@ -357,20 +357,18 @@ export const UnlockDefs: Record<UnlockDefKey, UnlockDef> = {
             "emote_flaglatvia",
             "emote_flaguae",
             "emote_flagdominicanrepublic",
-            "emote_flagpalestine",
             "emote_logocloud",
             "emote_logotwins",
 
-            /* use this to unlock everything :)
+            //use this to unlock everything :)
             ...new Set([
-                ...allowedOutfits,
-                ...allowedMeleeSkins,
-                ...allowedEmotes,
-                ...allowedHealEffects,
+                ..._allowedOutfits,
+                ..._allowedMeleeSkins,
+                ..._allowedEmotes,
+                ..._allowedHealEffects,
                 ...Object.keys(CrosshairDefs),
                 ...PassDefs.pass_survivr1.items.map((item) => item.item),
             ]),
-            */
         ],
     },
     unlock_new_account: {

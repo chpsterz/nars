@@ -1,5 +1,3 @@
-import { Rarity } from "../../gameConfig";
-
 export enum EmoteCategory {
     Locked,
     Faces,
@@ -238,7 +236,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_thumbsup: {
         type: "emote",
         name: "Thumbs Up",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "thumbs-up.img",
         sound: "emote_01",
         channel: "ui",
@@ -248,7 +246,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_sadface: {
         type: "emote",
         name: "Sad Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-sad.img",
         sound: "emote_01",
         channel: "ui",
@@ -258,7 +256,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_happyface: {
         type: "emote",
         name: "Happy Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-happy.img",
         sound: "emote_01",
         channel: "ui",
@@ -268,7 +266,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_surviv: {
         type: "emote",
         name: "Surviv Logo",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "surviv.img",
         sound: "emote_01",
         channel: "ui",
@@ -278,7 +276,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_gg: {
         type: "emote",
         name: "GG",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "gg.img",
         sound: "emote_01",
         channel: "ui",
@@ -288,7 +286,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_question: {
         type: "emote",
         name: "Question Mark",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "question.img",
         sound: "emote_01",
         channel: "ui",
@@ -298,7 +296,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_tombstone: {
         type: "emote",
         name: "Tombstone",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "tombstone.img",
         sound: "emote_01",
         channel: "ui",
@@ -308,7 +306,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_joyface: {
         type: "emote",
         name: "Joyful Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-joy.img",
         sound: "emote_01",
         channel: "ui",
@@ -318,7 +316,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_sobface: {
         type: "emote",
         name: "Sobbing Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-sob.img",
         sound: "emote_01",
         channel: "ui",
@@ -328,7 +326,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_thinkingface: {
         type: "emote",
         name: "Thonk",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-thinking.img",
         sound: "emote_01",
         channel: "ui",
@@ -338,7 +336,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagus: {
         type: "emote",
         name: "Flag United States",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-united-states-of-america.img",
         sound: "emote_01",
         channel: "ui",
@@ -348,7 +346,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagthailand: {
         type: "emote",
         name: "Flag Thailand",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-thailand.img",
         sound: "emote_01",
         channel: "ui",
@@ -358,7 +356,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flaggermany: {
         type: "emote",
         name: "Flag Germany",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-germany.img",
         sound: "emote_01",
         channel: "ui",
@@ -368,7 +366,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagfrance: {
         type: "emote",
         name: "Flag France",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-france.img",
         sound: "emote_01",
         channel: "ui",
@@ -378,7 +376,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagsouthkorea: {
         type: "emote",
         name: "Flag South Korea",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-south-korea.img",
         sound: "emote_01",
         channel: "ui",
@@ -388,7 +386,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagbrazil: {
         type: "emote",
         name: "Flag Brazil",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-brazil.img",
         sound: "emote_01",
         channel: "ui",
@@ -398,7 +396,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagcanada: {
         type: "emote",
         name: "Flag Canada",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-canada.img",
         sound: "emote_01",
         channel: "ui",
@@ -408,7 +406,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagspain: {
         type: "emote",
         name: "Flag Spain",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-spain.img",
         sound: "emote_01",
         channel: "ui",
@@ -418,7 +416,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagrussia: {
         type: "emote",
         name: "Flag Russia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-russia.img",
         sound: "emote_01",
         channel: "ui",
@@ -428,7 +426,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagmexico: {
         type: "emote",
         name: "Flag Mexico",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-mexico.img",
         sound: "emote_01",
         channel: "ui",
@@ -438,7 +436,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagpoland: {
         type: "emote",
         name: "Flag Poland",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-republic-of-poland.img",
         sound: "emote_01",
         channel: "ui",
@@ -448,7 +446,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flaguk: {
         type: "emote",
         name: "Flag United Kingdom",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-united-kingdom.img",
         sound: "emote_01",
         channel: "ui",
@@ -458,7 +456,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagcolombia: {
         type: "emote",
         name: "Flag Colombia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-colombia.img",
         sound: "emote_01",
         channel: "ui",
@@ -468,7 +466,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagukraine: {
         type: "emote",
         name: "Flag Ukraine",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-ukraine.img",
         sound: "emote_01",
         channel: "ui",
@@ -478,7 +476,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagturkey: {
         type: "emote",
         name: "Flag Turkey",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-turkey.img",
         sound: "emote_01",
         channel: "ui",
@@ -488,7 +486,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagphilippines: {
         type: "emote",
         name: "Flag Philippines",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-philippines.img",
         sound: "emote_01",
         channel: "ui",
@@ -498,7 +496,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagczechia: {
         type: "emote",
         name: "Flag Czechia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-czech-republic.img",
         sound: "emote_01",
         channel: "ui",
@@ -508,7 +506,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagperu: {
         type: "emote",
         name: "Flag Peru",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-peru.img",
         sound: "emote_01",
         channel: "ui",
@@ -518,7 +516,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagaustria: {
         type: "emote",
         name: "Flag Austria",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-austria.img",
         sound: "emote_01",
         channel: "ui",
@@ -528,7 +526,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagargentina: {
         type: "emote",
         name: "Flag Argentina",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-argentina.img",
         sound: "emote_01",
         channel: "ui",
@@ -538,7 +536,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagjapan: {
         type: "emote",
         name: "Flag Japan",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-japan.img",
         sound: "emote_01",
         channel: "ui",
@@ -548,7 +546,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagvenezuela: {
         type: "emote",
         name: "Flag Venezuela",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-venezuela.img",
         sound: "emote_01",
         channel: "ui",
@@ -558,7 +556,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagvietnam: {
         type: "emote",
         name: "Flag Vietnam",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-vietnam.img",
         sound: "emote_01",
         channel: "ui",
@@ -568,7 +566,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagswitzerland: {
         type: "emote",
         name: "Flag Switzerland",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-switzerland.img",
         sound: "emote_01",
         channel: "ui",
@@ -578,7 +576,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagnetherlands: {
         type: "emote",
         name: "Flag Netherlands",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-netherlands.img",
         sound: "emote_01",
         channel: "ui",
@@ -588,7 +586,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagchina: {
         type: "emote",
         name: "Flag China",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-china.img",
         sound: "emote_01",
         channel: "ui",
@@ -598,7 +596,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagtaiwan: {
         type: "emote",
         name: "Flag Taiwan",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-taiwan.img",
         sound: "emote_01",
         channel: "ui",
@@ -608,7 +606,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagchile: {
         type: "emote",
         name: "Flag Chile",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-chile.img",
         sound: "emote_01",
         channel: "ui",
@@ -618,7 +616,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagaustralia: {
         type: "emote",
         name: "Flag Australia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-australia.img",
         sound: "emote_01",
         channel: "ui",
@@ -628,7 +626,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagdenmark: {
         type: "emote",
         name: "Flag Denmark",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-denmark.img",
         sound: "emote_01",
         channel: "ui",
@@ -638,7 +636,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagitaly: {
         type: "emote",
         name: "Flag Italy",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-italy.img",
         sound: "emote_01",
         channel: "ui",
@@ -648,7 +646,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagsweden: {
         type: "emote",
         name: "Flag Sweden",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-sweden.img",
         sound: "emote_01",
         channel: "ui",
@@ -658,7 +656,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagecuador: {
         type: "emote",
         name: "Flag Ecuador",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-ecuador.img",
         sound: "emote_01",
         channel: "ui",
@@ -668,7 +666,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagslovakia: {
         type: "emote",
         name: "Flag Slovakia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-slovakia.img",
         sound: "emote_01",
         channel: "ui",
@@ -678,7 +676,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flaghungary: {
         type: "emote",
         name: "Flag Hungary",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-hungary.img",
         sound: "emote_01",
         channel: "ui",
@@ -688,7 +686,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagromania: {
         type: "emote",
         name: "Flag Romania",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-romania.img",
         sound: "emote_01",
         channel: "ui",
@@ -698,7 +696,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flaghongkong: {
         type: "emote",
         name: "Flag Hong Kong",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-hong-kong.img",
         sound: "emote_01",
         channel: "ui",
@@ -708,7 +706,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagindonesia: {
         type: "emote",
         name: "Flag Indonesia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-indonesia.img",
         sound: "emote_01",
         channel: "ui",
@@ -718,7 +716,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagfinland: {
         type: "emote",
         name: "Flag Finland",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-finland.img",
         sound: "emote_01",
         channel: "ui",
@@ -728,7 +726,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagnorway: {
         type: "emote",
         name: "Flag Norway",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-norway.img",
         sound: "emote_01",
         channel: "ui",
@@ -738,7 +736,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_heart: {
         type: "emote",
         name: "Heart",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "heart.img",
         sound: "emote_01",
         channel: "ui",
@@ -748,7 +746,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_sleepy: {
         type: "emote",
         name: "Zzz",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "sleepy.img",
         sound: "emote_01",
         channel: "ui",
@@ -758,7 +756,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flex: {
         type: "emote",
         name: "Flex",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flex.img",
         sound: "emote_01",
         channel: "ui",
@@ -768,7 +766,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_angryface: {
         type: "emote",
         name: "Angry Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-angry.img",
         sound: "emote_01",
         channel: "ui",
@@ -778,7 +776,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_upsidedownface: {
         type: "emote",
         name: "Upside Down Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-upsidedown.img",
         sound: "emote_01",
         channel: "ui",
@@ -788,7 +786,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_teabag: {
         type: "emote",
         name: "Teabag",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "teabag.img",
         sound: "emote_01",
         channel: "ui",
@@ -798,7 +796,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_alienface: {
         type: "emote",
         name: "Alien Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-alien.img",
         sound: "emote_01",
         channel: "ui",
@@ -808,7 +806,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagbelarus: {
         type: "emote",
         name: "Flag Belarus",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-belarus.img",
         sound: "emote_01",
         channel: "ui",
@@ -818,7 +816,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagbelgium: {
         type: "emote",
         name: "Flag Belgium",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-belgium.img",
         sound: "emote_01",
         channel: "ui",
@@ -828,7 +826,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagkazakhstan: {
         type: "emote",
         name: "Flag Kazakhstan",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-kazakhstan.img",
         sound: "emote_01",
         channel: "ui",
@@ -838,7 +836,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_egg: {
         type: "emote",
         name: "Egg",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "egg.img",
         sound: "emote_01",
         channel: "ui",
@@ -848,7 +846,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_police: {
         type: "emote",
         name: "Police Insignia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "police.img",
         sound: "emote_01",
         channel: "ui",
@@ -858,7 +856,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_dabface: {
         type: "emote",
         name: "Dab Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-dab.img",
         sound: "emote_01",
         channel: "ui",
@@ -868,7 +866,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagmalaysia: {
         type: "emote",
         name: "Flag Malaysia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-malaysia.img",
         sound: "emote_01",
         channel: "ui",
@@ -878,7 +876,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagnewzealand: {
         type: "emote",
         name: "Flag New Zealand",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-new-zealand.img",
         sound: "emote_01",
         channel: "ui",
@@ -888,7 +886,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logosurviv: {
         type: "emote",
         name: "PARMA",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-surviv.img",
         sound: "emote_01",
         channel: "ui",
@@ -898,7 +896,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logoegg: {
         type: "emote",
         name: "The Egg",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-egg.img",
         sound: "emote_01",
         channel: "ui",
@@ -908,7 +906,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logoswine: {
         type: "emote",
         name: "The Swine",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-swine.img",
         sound: "emote_01",
         channel: "ui",
@@ -918,7 +916,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logohydra: {
         type: "emote",
         name: "The Hydra",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-hydra.img",
         sound: "emote_01",
         channel: "ui",
@@ -928,7 +926,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logostorm: {
         type: "emote",
         name: "The Storm",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-storm.img",
         sound: "emote_01",
         channel: "ui",
@@ -938,7 +936,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flaghonduras: {
         type: "emote",
         name: "Flag Honduras",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-honduras.img",
         sound: "emote_01",
         channel: "ui",
@@ -948,7 +946,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logocaduceus: {
         type: "emote",
         name: "The Caduceus",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-caduceus.img",
         sound: "emote_01",
         channel: "ui",
@@ -958,7 +956,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_impface: {
         type: "emote",
         name: "Imp Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-imp.img",
         sound: "emote_01",
         channel: "ui",
@@ -968,7 +966,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_monocleface: {
         type: "emote",
         name: "Monocole Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-monocle.img",
         sound: "emote_01",
         channel: "ui",
@@ -978,7 +976,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_sunglassface: {
         type: "emote",
         name: "Sunglasses Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-sunglass.img",
         sound: "emote_01",
         channel: "ui",
@@ -988,7 +986,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_headshotface: {
         type: "emote",
         name: "Headshot!",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-headshot.img",
         sound: "emote_01",
         channel: "ui",
@@ -998,7 +996,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_potato: {
         type: "emote",
         name: "Potato",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "potato.img",
         sound: "emote_01",
         channel: "ui",
@@ -1008,7 +1006,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_leek: {
         type: "emote",
         name: "Leek",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "leek.img",
         sound: "emote_01",
         channel: "ui",
@@ -1018,7 +1016,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_eggplant: {
         type: "emote",
         name: "Eggplant",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "eggplant.img",
         sound: "emote_01",
         channel: "ui",
@@ -1028,7 +1026,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_baguette: {
         type: "emote",
         name: "Baguette",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "baguette.img",
         sound: "emote_01",
         channel: "ui",
@@ -1038,7 +1036,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_chick: {
         type: "emote",
         name: "Chick",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "chick.img",
         sound: "emote_01",
         channel: "ui",
@@ -1048,7 +1046,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagbolivia: {
         type: "emote",
         name: "Flag Bolivia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-bolivia.img",
         sound: "emote_01",
         channel: "ui",
@@ -1058,7 +1056,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagcroatia: {
         type: "emote",
         name: "Flag Croatia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-croatia.img",
         sound: "emote_01",
         channel: "ui",
@@ -1068,7 +1066,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagindia: {
         type: "emote",
         name: "Flag India",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-india.img",
         sound: "emote_01",
         channel: "ui",
@@ -1078,7 +1076,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagisrael: {
         type: "emote",
         name: "Flag Israel",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-israel.img",
         sound: "emote_01",
         channel: "ui",
@@ -1088,7 +1086,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flaggeorgia: {
         type: "emote",
         name: "Flag Georgia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-georgia.img",
         sound: "emote_01",
         channel: "ui",
@@ -1098,7 +1096,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flaggreece: {
         type: "emote",
         name: "Flag Greece",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-greece.img",
         sound: "emote_01",
         channel: "ui",
@@ -1108,7 +1106,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagguatemala: {
         type: "emote",
         name: "Flag Gautemala",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-guatemala.img",
         sound: "emote_01",
         channel: "ui",
@@ -1118,7 +1116,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagportugal: {
         type: "emote",
         name: "Flag Portugal",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-portugal.img",
         sound: "emote_01",
         channel: "ui",
@@ -1128,7 +1126,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagserbia: {
         type: "emote",
         name: "Flag Serbia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-serbia.img",
         sound: "emote_01",
         channel: "ui",
@@ -1138,7 +1136,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagsingapore: {
         type: "emote",
         name: "Flag Singapore",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-singapore.img",
         sound: "emote_01",
         channel: "ui",
@@ -1148,7 +1146,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagtrinidad: {
         type: "emote",
         name: "Flag Trinidad and Tobago",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-trinidad-and-tobago.img",
         sound: "emote_01",
         channel: "ui",
@@ -1158,7 +1156,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flaguruguay: {
         type: "emote",
         name: "Flag Uruguay",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-uruguay.img",
         sound: "emote_01",
         channel: "ui",
@@ -1168,7 +1166,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logoconch: {
         type: "emote",
         name: "The Conch",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-conch.img",
         sound: "emote_01",
         channel: "ui",
@@ -1178,7 +1176,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_pineapple: {
         type: "emote",
         name: "Pineapple",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "pineapple.img",
         sound: "emote_01",
         channel: "ui",
@@ -1188,7 +1186,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_coconut: {
         type: "emote",
         name: "Coconut",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "coconut.img",
         sound: "emote_01",
         channel: "ui",
@@ -1198,7 +1196,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_crab: {
         type: "emote",
         name: "Crab",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "crab.img",
         sound: "emote_01",
         channel: "ui",
@@ -1208,7 +1206,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_whale: {
         type: "emote",
         name: "Whale",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "whale.img",
         sound: "emote_01",
         channel: "ui",
@@ -1218,7 +1216,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logometeor: {
         type: "emote",
         name: "The Meteor",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-meteor.img",
         sound: "emote_01",
         channel: "ui",
@@ -1228,7 +1226,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_salt: {
         type: "emote",
         name: "Salt Shaker",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "salt.img",
         sound: "emote_01",
         channel: "ui",
@@ -1238,7 +1236,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_disappointface: {
         type: "emote",
         name: "Disappointed Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-disappoint.img",
         sound: "emote_01",
         channel: "ui",
@@ -1248,7 +1246,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logocrossing: {
         type: "emote",
         name: "The Crossing",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-crossing.img",
         sound: "emote_01",
         channel: "ui",
@@ -1258,7 +1256,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_fish: {
         type: "emote",
         name: "Fish",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "fish.img",
         sound: "emote_01",
         channel: "ui",
@@ -1268,7 +1266,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_campfire: {
         type: "emote",
         name: "Campfire",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "campfire.img",
         sound: "emote_01",
         channel: "ui",
@@ -1278,7 +1276,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_chickendinner: {
         type: "emote",
         name: "Chicken Dinner",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "chicken-dinner.img",
         sound: "emote_01",
         channel: "ui",
@@ -1288,7 +1286,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_cattle: {
         type: "emote",
         name: "Cattle Skull",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "cattle.img",
         sound: "emote_01",
         channel: "ui",
@@ -1298,7 +1296,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_icecream: {
         type: "emote",
         name: "Ice Cream",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "ice-cream.img",
         sound: "emote_01",
         channel: "ui",
@@ -1308,7 +1306,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_cupcake: {
         type: "emote",
         name: "Cupcake",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "cupcake.img",
         sound: "emote_01",
         channel: "ui",
@@ -1318,7 +1316,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_donut: {
         type: "emote",
         name: "Donut",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "donut.img",
         sound: "emote_01",
         channel: "ui",
@@ -1328,7 +1326,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logohatchet: {
         type: "emote",
         name: "The Hatchet",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-hatchet.img",
         sound: "emote_01",
         channel: "ui",
@@ -1338,7 +1336,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_acorn: {
         type: "emote",
         name: "Acorn",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "acorn.img",
         sound: "emote_01",
         channel: "ui",
@@ -1348,7 +1346,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_trunk: {
         type: "emote",
         name: "Tree Trunk",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "trunk.img",
         sound: "emote_01",
         channel: "ui",
@@ -1358,7 +1356,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_forest: {
         type: "emote",
         name: "Forest",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "forest.img",
         sound: "emote_01",
         channel: "ui",
@@ -1368,7 +1366,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_pumpkin: {
         type: "emote",
         name: "Pumpkin",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "pumpkin.img",
         sound: "emote_01",
         channel: "ui",
@@ -1378,7 +1376,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_candycorn: {
         type: "emote",
         name: "Candy Corn",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "candy-corn.img",
         sound: "emote_01",
         channel: "ui",
@@ -1388,7 +1386,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_pilgrimhat: {
         type: "emote",
         name: "Pilgrim",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "pilgrim-hat.img",
         sound: "emote_01",
         channel: "ui",
@@ -1398,7 +1396,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_turkeyanimal: {
         type: "emote",
         name: "Turkey",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "turkey-animal.img",
         sound: "emote_01",
         channel: "ui",
@@ -1408,7 +1406,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_heartface: {
         type: "emote",
         name: "Heart Face",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "face-heart.img",
         sound: "emote_01",
         channel: "ui",
@@ -1418,7 +1416,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logochrysanthemum: {
         type: "emote",
         name: "The Chrysanthemum",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-chrysanthemum.img",
         sound: "emote_01",
         channel: "ui",
@@ -1428,7 +1426,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_santahat: {
         type: "emote",
         name: "Santa Hat",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "santa-hat.img",
         sound: "emote_01",
         channel: "ui",
@@ -1438,7 +1436,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_snowman: {
         type: "emote",
         name: "Snowman",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "snowman.img",
         sound: "emote_01",
         channel: "ui",
@@ -1448,7 +1446,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_snowflake: {
         type: "emote",
         name: "Snowflake",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "snowflake.img",
         sound: "emote_01",
         channel: "ui",
@@ -1458,7 +1456,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagmorocco: {
         type: "emote",
         name: "Flag Morocco",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-morocco.img",
         sound: "emote_01",
         channel: "ui",
@@ -1468,7 +1466,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagestonia: {
         type: "emote",
         name: "Flag Estonia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-estonia.img",
         sound: "emote_01",
         channel: "ui",
@@ -1478,7 +1476,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagalgeria: {
         type: "emote",
         name: "Flag Algeria",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-algeria.img",
         sound: "emote_01",
         channel: "ui",
@@ -1488,7 +1486,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagegypt: {
         type: "emote",
         name: "Flag Egypt",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-egypt.img",
         sound: "emote_01",
         channel: "ui",
@@ -1498,7 +1496,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagazerbaijan: {
         type: "emote",
         name: "Flag Azerbaijan",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-azerbaijan.img",
         sound: "emote_01",
         channel: "ui",
@@ -1508,7 +1506,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagalbania: {
         type: "emote",
         name: "Flag Albania",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-albania.img",
         sound: "emote_01",
         channel: "ui",
@@ -1518,7 +1516,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flaglithuania: {
         type: "emote",
         name: "Flag Lithuania",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-lithuania.img",
         sound: "emote_01",
         channel: "ui",
@@ -1528,7 +1526,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flaglatvia: {
         type: "emote",
         name: "Flag Latvia",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-latvia.img",
         sound: "emote_01",
         channel: "ui",
@@ -1538,7 +1536,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flaguae: {
         type: "emote",
         name: "Flag United Arab Emirates",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-united-arab-emirates.img",
         sound: "emote_01",
         channel: "ui",
@@ -1548,18 +1546,8 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_flagdominicanrepublic: {
         type: "emote",
         name: "Flag Dominican Republic",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "flag-dominican-republic.img",
-        sound: "emote_01",
-        channel: "ui",
-        teamOnly: false,
-        category: EmoteCategory.Flags,
-    },
-    emote_flagpalestine: {
-        type: "emote",
-        name: "Flag Palestine",
-        rarity: Rarity.Common,
-        texture: "flag-palestine.img",
         sound: "emote_01",
         channel: "ui",
         teamOnly: false,
@@ -1568,7 +1556,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logocloud: {
         type: "emote",
         name: "The Cloud",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-cloud.img",
         sound: "emote_01",
         channel: "ui",
@@ -1578,7 +1566,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_ghost_base: {
         type: "emote",
         name: "Ghost",
-        rarity: Rarity.Uncommon,
+        rarity: 2,
         texture: "ghost-base.img",
         sound: "emote_01",
         channel: "ui",
@@ -1588,7 +1576,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_bandagedface: {
         type: "emote",
         name: "Bandaged Face",
-        rarity: Rarity.Uncommon,
+        rarity: 2,
         texture: "face-bandaged.img",
         sound: "emote_01",
         channel: "ui",
@@ -1598,7 +1586,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_picassoface: {
         type: "emote",
         name: "Picasso Face",
-        rarity: Rarity.Uncommon,
+        rarity: 2,
         texture: "face-picasso.img",
         sound: "emote_01",
         channel: "ui",
@@ -1608,7 +1596,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_pooface: {
         type: "emote",
         name: "Poo Face",
-        rarity: Rarity.Rare,
+        rarity: 3,
         texture: "face-poo.img",
         sound: "emote_01",
         channel: "ui",
@@ -1618,7 +1606,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_ok: {
         type: "emote",
         name: "Ok",
-        rarity: Rarity.Uncommon,
+        rarity: 2,
         texture: "ok.img",
         sound: "emote_01",
         channel: "ui",
@@ -1628,7 +1616,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_rainbow: {
         type: "emote",
         name: "Rainbow",
-        rarity: Rarity.Rare,
+        rarity: 3,
         texture: "rainbow.img",
         sound: "emote_01",
         channel: "ui",
@@ -1638,7 +1626,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
     emote_logotwins: {
         type: "emote",
         name: "The Twins",
-        rarity: Rarity.Common,
+        rarity: 1,
         texture: "logo-twins.img",
         sound: "emote_01",
         channel: "ui",

@@ -81,7 +81,7 @@ export interface RoleDef {
 
     mapIcon?: {
         alive: string;
-        dead?: string;
+        dead: string;
     };
     defaultItems?: DefaultItems;
     perks?: (string | (() => string))[];
@@ -186,37 +186,6 @@ export const RoleDefs: Record<string, RoleDef> = {
                 })[teamcolor],
             inventory: {
                 "8xscope": 1,
-                healthkit: 1,
-                bandage: 5,
-            },
-        }),
-    },
-    captain: {
-        type: "role",
-        announce: true,
-        killFeed: { assign: true },
-        sound: { assign: "captain_assigned_01" },
-        mapIcon: {
-            alive: "player-captain.img",
-        },
-        perks: ["assume_leadership", "firepower"],
-        defaultItems: createDefaultItems({
-            weapons: [
-                { type: "", ammo: 0 },
-                { type: "", ammo: 0 },
-                { type: "", ammo: 0 },
-                { type: "", ammo: 0 },
-            ],
-            backpack: "backpack03",
-            helmet: "helmet04_captain",
-            chest: "chest03",
-            outfit: (teamcolor: TeamColor) =>
-                ({
-                    [TeamColor.Red]: "outfitRedLeader",
-                    [TeamColor.Blue]: "outfitBlueLeader",
-                })[teamcolor],
-            inventory: {
-                "8xscope": 1,
             },
         }),
     },
@@ -245,8 +214,6 @@ export const RoleDefs: Record<string, RoleDef> = {
             chest: "chest03",
             inventory: {
                 "4xscope": 1,
-                bandage: 10,
-                soda: 3,
             },
         }),
     },
@@ -269,14 +236,13 @@ export const RoleDefs: Record<string, RoleDef> = {
             ],
             backpack: "backpack03",
             helmet: "helmet04_medic",
-            chest: "chest03",
             inventory: {
                 "4xscope": 1,
-                bandage: 30,
-                healthkit: 4,
-                painkiller: 4,
-                soda: 15,
-                smoke: 6,
+                bandage: 5,
+                healthkit: 1,
+                painkiller: 1,
+                soda: 3,
+                smoke: 3,
             },
         }),
     },
@@ -311,7 +277,6 @@ export const RoleDefs: Record<string, RoleDef> = {
             chest: "chest03",
             inventory: {
                 "8xscope": 1,
-                bandage: 5,
             },
         }),
     },
@@ -333,7 +298,6 @@ export const RoleDefs: Record<string, RoleDef> = {
             chest: "chest03",
             inventory: {
                 "4xscope": 1,
-                bandage: 5,
                 soda: 6,
             },
         }),
@@ -347,18 +311,16 @@ export const RoleDefs: Record<string, RoleDef> = {
         defaultItems: createDefaultItems({
             weapons: [
                 { type: "", ammo: 0 },
-                { type: "saiga", ammo: 5, fillInv: true },
+                { type: "mp220", ammo: 2, fillInv: true },
                 { type: "katana", ammo: 0 },
-                { type: "mirv", ammo: 8 },
+                { type: "mirv", ammo: 2 },
             ],
             backpack: "backpack03",
             helmet: "helmet03_grenadier",
-            chest: "chest03",
             inventory: {
-                mirv: 8,
-                frag: 12,
+                mirv: 2,
+                frag: 4,
                 "4xscope": 1,
-                bandage: 5,
             },
         }),
     },
@@ -372,16 +334,13 @@ export const RoleDefs: Record<string, RoleDef> = {
             weapons: [
                 { type: "", ammo: 0 },
                 { type: "bugle", ammo: 1 },
-                { type: "pan", ammo: 0 },
+                { type: "", ammo: 0 },
                 { type: "", ammo: 0 },
             ],
             backpack: "backpack03",
             helmet: "helmet03_bugler",
-            chest: "chest03",
             inventory: {
                 "4xscope": 1,
-                bandage: 5,
-                soda: 2,
             },
         }),
     },
@@ -392,14 +351,10 @@ export const RoleDefs: Record<string, RoleDef> = {
         sound: { assign: "last_man_assigned_01" },
         perks: [
             "steelskin",
+            "splinter",
             () =>
                 util.weightedRandom([
-                    { type: "ap_rounds", weight: 1 },
-                    { type: "splinter", weight: 1 },
-                ]).type,
-            "takedown",
-            () =>
-                util.weightedRandom([
+                    { type: "takedown", weight: 4.5 },
                     { type: "windwalk", weight: 1 },
                     { type: "field_medic", weight: 1 },
                 ]).type,

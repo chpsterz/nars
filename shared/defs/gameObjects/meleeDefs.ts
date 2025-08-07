@@ -1,4 +1,3 @@
-import { Rarity } from "../../gameConfig";
 import { defineSkin } from "../../utils/util";
 import type { Vec2 } from "../../utils/v2";
 
@@ -1049,12 +1048,12 @@ const BaseDefs: Record<string, MeleeDef> = {
 const SkinDefs: Record<string, MeleeDef> = {
     fists: defineMeleeSkin("fists", {
         name: "Fists",
-        rarity: Rarity.Stock,
+        rarity: 0,
         lore: "The old one-two.",
     }),
     knuckles_rusted: defineMeleeSkin("knuckles", {
         name: "Knuckles Rusted",
-        rarity: Rarity.Uncommon,
+        rarity: 2,
         lore: "Rust up for the dust up.",
         noPotatoSwap: false,
         lootImg: {
@@ -1066,7 +1065,7 @@ const SkinDefs: Record<string, MeleeDef> = {
     }),
     knuckles_heroic: defineMeleeSkin("knuckles", {
         name: "Knuckles Heroic",
-        rarity: Rarity.Rare,
+        rarity: 3,
         lore: "Give 'em a hero sandwich.",
         noPotatoSwap: false,
         lootImg: {
@@ -1078,7 +1077,7 @@ const SkinDefs: Record<string, MeleeDef> = {
     }),
     karambit_rugged: defineMeleeSkin("karambit", {
         name: "Karambit Rugged",
-        rarity: Rarity.Rare,
+        rarity: 3,
         noPotatoSwap: false,
         anim: {
             idlePose: "slash",
@@ -1093,7 +1092,7 @@ const SkinDefs: Record<string, MeleeDef> = {
     }),
     karambit_prismatic: defineMeleeSkin("karambit", {
         name: "Karambit Prismatic",
-        rarity: Rarity.Epic,
+        rarity: 4,
         noPotatoSwap: false,
         lootImg: {
             sprite: "loot-melee-karambit-prismatic.img",
@@ -1104,7 +1103,7 @@ const SkinDefs: Record<string, MeleeDef> = {
     }),
     karambit_drowned: defineMeleeSkin("karambit", {
         name: "Karambit Drowned",
-        rarity: Rarity.Epic,
+        rarity: 4,
         noPotatoSwap: false,
         lootImg: {
             sprite: "loot-melee-karambit-drowned.img",
@@ -1115,7 +1114,7 @@ const SkinDefs: Record<string, MeleeDef> = {
     }),
     bayonet_rugged: defineMeleeSkin("bayonet", {
         name: "Bayonet Rugged",
-        rarity: Rarity.Rare,
+        rarity: 3,
         noPotatoSwap: false,
         lootImg: {
             sprite: "loot-melee-bayonet-rugged.img",
@@ -1126,7 +1125,7 @@ const SkinDefs: Record<string, MeleeDef> = {
     }),
     bayonet_woodland: defineMeleeSkin("bayonet", {
         name: "Bayonet Woodland",
-        rarity: Rarity.Epic,
+        rarity: 4,
         noPotatoSwap: false,
         lootImg: {
             sprite: "loot-melee-bayonet-woodland.img",
@@ -1137,7 +1136,7 @@ const SkinDefs: Record<string, MeleeDef> = {
     }),
     huntsman_rugged: defineMeleeSkin("huntsman", {
         name: "Huntsman Rugged",
-        rarity: Rarity.Rare,
+        rarity: 3,
         noPotatoSwap: false,
         lootImg: {
             sprite: "loot-melee-huntsman-rugged.img",
@@ -1148,7 +1147,7 @@ const SkinDefs: Record<string, MeleeDef> = {
     }),
     huntsman_burnished: defineMeleeSkin("huntsman", {
         name: "Huntsman Burnished",
-        rarity: Rarity.Epic,
+        rarity: 4,
         noPotatoSwap: false,
         lootImg: {
             sprite: "loot-melee-huntsman-burnished.img",
@@ -1159,7 +1158,7 @@ const SkinDefs: Record<string, MeleeDef> = {
     }),
     bowie_vintage: defineMeleeSkin("bowie", {
         name: "Bowie Vintage",
-        rarity: Rarity.Rare,
+        rarity: 3,
         noPotatoSwap: false,
         lootImg: { sprite: "loot-melee-bowie-vintage.img" },
         worldImg: {
@@ -1168,7 +1167,7 @@ const SkinDefs: Record<string, MeleeDef> = {
     }),
     bowie_frontier: defineMeleeSkin("bowie", {
         name: "Bowie Frontier",
-        rarity: Rarity.Epic,
+        rarity: 4,
         noPotatoSwap: false,
         lootImg: {
             sprite: "loot-melee-bowie-frontier.img",
